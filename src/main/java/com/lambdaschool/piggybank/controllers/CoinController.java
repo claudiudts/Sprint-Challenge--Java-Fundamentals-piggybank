@@ -47,7 +47,7 @@ public class CoinController
             }
         });
 
-        double total = 0.00;
+        double total = 0;
         for(Coin c : myList)
         {
             total = total + c.getQuantity() * c.getValue();

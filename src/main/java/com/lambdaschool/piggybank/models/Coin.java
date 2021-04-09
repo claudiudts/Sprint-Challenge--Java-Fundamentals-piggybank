@@ -13,7 +13,7 @@ public class Coin
 
     private String name;
     private String nameplural;
-    private long value;
+    private double value;
     private int quantity;
 
     public Coin()
@@ -21,7 +21,7 @@ public class Coin
 
     }
 
-    public Coin(String name, String nameplural, long value, int quantity)
+    public Coin(String name, String nameplural, double value, int quantity)
     {
         this.name = name;
         this.nameplural = nameplural;
@@ -53,11 +53,11 @@ public class Coin
         this.nameplural = nameplural;
     }
 
-    public long getValue() {
+    public double getValue() {
         return value;
     }
 
-    public void setValue(long value) {
+    public void setValue(double value) {
         this.value = value;
     }
 

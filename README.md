@@ -20,23 +20,27 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 ## Interview Questions
 
-Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. 
+Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics.
 
 1. Explain how you took advantage of Java's Object Oriented approach to solve the sprint challenge.
+  --Using the topics learned this week, I used inheritance to extend to classes and abstraction to display relevant information on the screen or to the user.
 2. Explain how you connected your solution to a database, including what code was necessary for this task.
+  -- I created a repository package, which contained the coinRepository and using @CrudRepository it connected to the folders we needed.
 3. Explain the advantages of the project structure (packages) you used.
+  -- creating packages for different objects makes navigating and working easier as you have certain packages that do specific things and your code is organized.
 4. Explain the differences between Abstract Classes and Interfaces, including how they are used in your application?
+  -- abstract class achieves partial abstraction while interface achieves full abstraction.
 
 ## Instructions
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Start with the provided piggybank application
-- [ ] Push commits: `git push -u origin <firstName-lastName>`
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [x] Create a forked copy of this project
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Start with the provided piggybank application
+- [x] Push commits: `git push -u origin <firstName-lastName>`
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
 
 #### Video on How to Set Up Your Project
 
@@ -44,7 +48,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 ### Task 2: Project Requirements
 
-- [ ] You are to start with the provided initial application.
+- [x] You are to start with the provided initial application.
 - This application was created using the wizard in IntelliJ
   - The application is named piggybank
   - You do not need to use services or configuration packages
@@ -52,13 +56,13 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
   - You do need to
     - update the applications.properties configuration file
     - create the necessary packages (at least 3 are needed) and classes
-- [ ] Create a model Coin to represent the table for the piggy bank
+- [x] Create a model Coin to represent the table for the piggy bank
   - Each row in the table contains: (use the provided data.sql as a guide)
     - The number of coins in this group
     - The face value of the coins in the group
     - The name of a single coin
     - The name of more than one coin
-- [ ] Create an endpoint http://localhost:2019/total that prints to console the contents of the Piggy Bank as follows and returns an HTTP Status of OK:
+- [x] Create an endpoint http://localhost:2019/total that prints to console the contents of the Piggy Bank as follows and returns an HTTP Status of OK:
 
 In your console in IntelliJ you should see:
 
